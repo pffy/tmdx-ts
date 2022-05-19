@@ -6,12 +6,12 @@
  * license  : https://opensource.org/licenses/MIT
  */
 
-interface KeyValuePairs {
+interface KeyValuePair {
   [key: string]: string;
 }
 
 export class IdxToneMarks {
-  static readonly tmdx: KeyValuePairs = {
+  static readonly tmdx: KeyValuePair = {
     "uu1an": "\u00fcan",
     "uu2an": "\u01d8an",
     "uu3an": "\u01daan",
