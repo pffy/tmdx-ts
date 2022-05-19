@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 /*
  * src      : test1.js
- * job      : tests for the generic object
- * git      : https://github.com/pffy/obj-ts
+ * job      : tests for IdxToneMarks
+ * git      : https://github.com/pffy/tmdx-ts
  * author   : The Pffy Authors https://pffy.dev
  * license  : https://opensource.org/licenses/MIT
  */
-const { SomeObject } = require('../.');
+const { IdxToneMarks } = require('../.');
 
-console.log('hello-world?, %s, %s',
-  SomeObject.derp.key,
-  SomeObject.derp.value);
+const str = 'hao3';
+const key = 'ao3';
+
+console.log('good? %s?: %s', str, str.replace(key, IdxToneMarks.tmdx[key]));
+console.log('done.');
