@@ -1,7 +1,7 @@
 {
-  "name": "obj-ts",
+  "name": "tmdx-ts",
   "version": "0.1.0",
-  "description": "generic TypeScript object",
+  "description": "TypeScript implementation of IdxToneMarks",
   "main": "./obj.js",
   "scripts": {
     "build": "tsc *.ts",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pffy/obj-ts.git"
+    "url": "git+https://github.com/pffy/tmdx-ts.git"
   },
   "keywords": [
-    "template",
-    "typescript",
-    "object"
+    "hanyu-pinyin",
+    "tonemarks",
+    "typescript"
   ],
   "author": "The Pffy Authors (https://pffy.dev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pffy/obj-ts/issues"
+    "url": "https://github.com/pffy/tmdx-ts/issues"
   },
-  "homepage": "https://github.com/pffy/obj-ts#readme"
+  "homepage": "https://github.com/pffy/tmdx-ts#readme"
 }
